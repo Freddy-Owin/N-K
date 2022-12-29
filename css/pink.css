@@ -1,0 +1,31 @@
+body.dark .header .nav ul li a.active,
+body.dark .header .nav ul li a:hover,
+.btn-1:hover,
+.event-section .event-item-inner span,
+.story-section .story-text h3,
+.couple-section .couple h3,
+.header .nav ul li a.active,
+.preloader .loader i,
+.fa-music,
+.header .nav ul li a:hover {
+    color: #fb839e;
+}
+
+.preloader .loader::before{
+    border-right-color: #fb839e;
+}
+
+.fa-music,
+.btn-1:hover,
+.event-section .event-item-inner::before,
+.couple-section .couple img{
+    border-color: #fb839e;
+}
+
+.fa-music.pause::after,
+.setting .s-toggle-btn,
+.rsvp-section,
+.btn-1,
+.event-section{
+    background-color: #fb839e;
+}
